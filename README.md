@@ -2,7 +2,7 @@
 
 Utilizing three different solutions to obtaining fibonacci numbers I encountered some vary interesting results
 
-fibonacci.rb contains three namespaced methods and the benchamrking setup I used.
+`fibonacci.rb` contains three namespaced methods and the benchamrking setup I used.
 
 Fork this and play, share your results if you find something interesting
 
@@ -12,7 +12,7 @@ The recursive method is on par at the beginning but soon begins to slow down.
 The inject method seems twice as slow as the normal iterative method.
 However the normal method runs out of steam at 8181 digits and the inject keeps chugging along.
 
-## Benchmark results comparing two iterative solutions and one recursive solution
+## Benchmark results comparing two iterative solutions and one recursive solution (0..35)
 ```
 The Fibonacci result is 0
 Rehearsal -------------------------------------------------------------------------
